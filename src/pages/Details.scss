@@ -1,0 +1,36 @@
+.detais-container {
+	margin: 80px;
+	display: flex;
+	justify-content: center;
+
+	.text-container {
+		max-width: 565px;
+		margin-right: 80px;
+		text-align: left;
+
+		.small-details {
+			align-items: end;
+			justify-content: flex-start;
+			font-size: 20px;
+			font-weight: 600;
+			color: darkgray;
+			margin-top: 20px;
+		}
+
+		h1 {
+			font-size: 80px;
+		}
+
+		h4 {
+			color: darkgray;
+		}
+	}
+
+	.poster-container {
+		align-self: center;
+		img {
+			height: 65vh;
+			border-radius: 4px;
+		}
+	}
+}
